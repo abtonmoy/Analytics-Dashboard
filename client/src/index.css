@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle for Light Mode */
+html[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+/* Handle on Hover for Light Mode */
+html[data-theme="light"] ::-webkit-scrollbar-thumb:hover {
+  background: #e0e0e0;
+}
+
+/* Handle for Dark Mode */
+html[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+/* Handle on Hover for Dark Mode */
+html[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
